@@ -10,6 +10,7 @@ wont have faces. It serachs for the patterns in several stages,where it intensif
 stages of roughly and quickly jobs.
    OpenCV has these cascade classifers in terms of XML files, which we can use as pretrained features or patterns. Here we are going to use the xml file called 
 haarcascade_frontalface_default.xml
+
 PARAMETERS FOR FACE DETECTION
 
  cascadeClassifier.detectMultiScale(image, faceDetections, scaleFactor, minNeighbors, flags, minSize, maxSize)
