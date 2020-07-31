@@ -43,3 +43,4 @@ PARAMETERS FOR FACE DETECTION
  					[30x30] is the standard
 
  5.) maxSize: objects larger than that are ignored !!!
+</pre>
