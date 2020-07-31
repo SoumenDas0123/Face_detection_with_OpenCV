@@ -21,14 +21,10 @@ cascadeClassifier.detectMultiScale(image, faceDetections, scaleFactor, minNeighb
 1.) **scaleFactor**: Since some faces may be closer to the camera, they would appear bigger than other faces in the background, the scale factor compensates for this
 specifying how much the image size is reduced at each image scale. The model has a fixed size defined during training in the haarcascade_frontalface_default.xml file.
 By rescaling the input image, you can resize a larger face to a smaller one,making it detectable by the algorithm. Value: 1.1 - 1.4, **Small**-> algorithm will be
-slow since it is more thorough, **High**-> faster detection with the risk of missing some faces altogether.
-
+slow since it is more thorough, **High**-> faster detection with the risk of missing some faces altogether.  
 2.) **minNeighbors**: Specifying how many neighbors each candidate rectangle should have to retain it, Value interval: ~ 3-6, Higher values-> less detections but with
-higher quality.
-
-3.) **flags**: Kind of a heuristic, reject some image regions that contain too few or too much edges and thus can not contain the searched object.
-
-4.) **minSize**: Objects smaller than this are ignored,	we can specify what is the smallest object we want to recognize, 30x30 is the standard.
-
+higher quality.  
+3.) **flags**: Kind of a heuristic, reject some image regions that contain too few or too much edges and thus can not contain the searched object.  
+4.) **minSize**: Objects smaller than this are ignored,	we can specify what is the smallest object we want to recognize, 30x30 is the standard.  
 5.) **maxSize**: Objects larger than that are ignored.
 
