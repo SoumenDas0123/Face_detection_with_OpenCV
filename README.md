@@ -13,8 +13,11 @@ stage.
 OpenCV has these cascade classifers in terms of XML files, which we can use as pretrained features or patterns. Here we are going to use the xml file called 
 **haarcascade_frontalface_default.xml**.
 
+
+
 ### PARAMETERS FOR FACE DETECTION
 cascadeClassifier.detectMultiScale(image, faceDetections, scaleFactor, minNeighbors, flags, minSize, maxSize)
+
 1.) **scaleFactor**:
 	Since some faces may be closer to the camera, they would appear bigger than other faces in the background, the scale factor compensates for this specifying
 	how much the image size is reduced at each image scale.
