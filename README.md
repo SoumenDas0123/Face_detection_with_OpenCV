@@ -20,7 +20,7 @@ cascadeClassifier.detectMultiScale(image, faceDetections, scaleFactor, minNeighb
 
 1.) **scaleFactor**:
 	Since some faces may be closer to the camera, they would appear bigger than other faces in the background, the scale factor compensates for this specifying
-	how much the image size is reduced at each image scale.
+	how much the image size is reduced at each image scale.  return
 	The model has a fixed size defined during training: in the haarcascade_frontalface_default.xml.xml file
 	By rescaling the input image, you can resize a larger face to a smaller one,making it detectable by the algorithm
 	Value: 1.1 - 1.4
