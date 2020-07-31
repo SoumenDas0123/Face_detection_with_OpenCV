@@ -1,6 +1,6 @@
 # Face_detection_with_OpenCV
 
-We are going to detect the faces in an image with OpenCV which is a very popular library for computer vision. When it comes to detecting face, machine 
+	We are going to detect the faces in an image with OpenCV which is a very popular library for computer vision. When it comes to detecting face, machine 
 doesnt just detect the face in a straight forward way, because it requires lots of small features and patterns to be matched. The task of identifying face are broken
 down into lots of smaller jobs where it tries to match those simple individual patterns and features present generally in a human face. OpenCV uses machine learning
 classification algorithms to do that.
