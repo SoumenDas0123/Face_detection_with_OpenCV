@@ -4,10 +4,12 @@
 detect the face in a straight forward way, because it requires lots of small features and patterns to be matched. The task of identifying face are broken down into
 lots of smaller jobs where it tries to match those simple individual patterns and features present generally in a human face. OpenCV uses machine learning
 classification algorithms to do that.
+
    There will be thousands of smaller classification tasks which need to be performed on every parts of the image, which makes the preocess computationally very
 heavy. For turn around OpenCV uses cascade classifier, where it doesnt try to search for all the patterns at a time, as we know that most of the parts of an image
 wont have faces. It serachs for the patterns in several stages,where it intensifies the classification jobs for facal features, only when it passes the previous
 stages of roughly and quickly jobs.
+
    OpenCV has these cascade classifers in terms of XML files, which we can use as pretrained features or patterns. Here we are going to use the xml file called 
 haarcascade_frontalface_default.xml
 
