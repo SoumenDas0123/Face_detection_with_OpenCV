@@ -11,7 +11,7 @@ Instead it searchs for the patterns in several stages, where it looks for the de
 stage.  
 
 OpenCV has these cascade classifers in terms of XML files, which we can use as pretrained features or patterns. Here we are going to use the xml file called 
-**haarcascade_frontalface_default.xml**.
+**haarcascade_frontalface_default.xml**, which you can grab from this repo.
 
 
 
