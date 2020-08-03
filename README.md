@@ -1,4 +1,4 @@
-# Face_detection_with_OpenCV
+# Face Detection with OpenCV
 
 We are going to detect the faces in an image with OpenCV which is a very popular library for computer vision. When it comes to detecting face, machine doesnt just
 detect the face in a straight forward way, because it requires lots of small features and patterns to be matched. Hence the task of identifying face are broken down
@@ -15,7 +15,7 @@ OpenCV has these cascade classifers in terms of XML files, which we can use as p
 
 
 
-### PARAMETERS FOR FACE DETECTION
+### Parameters for face detection
 cascadeClassifier.detectMultiScale(image, faceDetections, scaleFactor, minNeighbors, flags, minSize, maxSize)  
 
 1. **scaleFactor**: Since some faces may be closer to the camera, they would appear bigger than other faces in the background, the scale factor compensates for this
@@ -28,3 +28,4 @@ higher quality.
 4. **minSize**: Objects smaller than this are ignored,	we can specify what is the smallest object we want to recognize, 30x30 is the standard.  
 5. **maxSize**: Objects larger than that are ignored.
 
+### Checking the results
