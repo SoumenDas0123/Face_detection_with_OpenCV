@@ -29,5 +29,5 @@ higher quality.
 ### Checking the results
 We will try to detect the faces on an [image](https://www.needsomefun.net/best-pink-floyd-photos/) of the Pink Floyd band. At first we will try with commonly used values, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30).
 ![Reult1](/PinkFloydResult1.jpg "first result")
-As we can see 5 faces have been detected and that one with smaller window size is not face. Let increase the size of minSize=(70, 70).
+As we can see 5 faces have been detected and that one with smaller window size is not a face. To get rid of that let increase the minSize=(70, 70).
 ![Reult2](/PinkFloydResult2.jpg "second result")
