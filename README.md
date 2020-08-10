@@ -16,7 +16,6 @@ OpenCV has these cascade classifers in terms of XML files, which we can use as p
 
 ### Parameters for face detection
 cascadeClassifier.detectMultiScale(image, scaleFactor, minNeighbors, minSize, maxSize)  
-
 1. **scaleFactor**: Since some faces may be closer to the camera, they would appear bigger than other faces in the background, the scale factor compensates for this
 specifying how much the image size is reduced at each image scale. The model has a fixed size defined during training in the haarcascade_frontalface_default.xml file.
 By rescaling the input image, you can resize a larger face to a smaller one,making it detectable by the algorithm. Value: 1.1 - 1.4, **Small**-> algorithm will be
@@ -26,5 +25,9 @@ higher quality.
 3. **minSize**: Objects smaller than this are ignored,	we can specify what is the smallest object we want to recognize, 30x30 is the standard.  
 4. **maxSize**: Objects larger than that are ignored.
 
+
 ### Checking the results
 We will try to detect the faces on an [image](https://www.needsomefun.net/best-pink-floyd-photos/) of the Pink Floyd band.
+At first we will try with commonly used values, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30).
+Result:
+![Reult1](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
