@@ -23,8 +23,7 @@ By rescaling the input image, you can resize a larger face to a smaller one,maki
 slow since it is more thorough, **High**-> faster detection with the risk of missing some faces altogether.  
 2. **minNeighbors**: Specifying how many neighbors each candidate rectangle should have to retain it, Value interval: ~ 3-6, Higher values-> less detections but with
 higher quality.  
-3. **flags**: Kind of a heuristic, reject some image regions that contain too few or too much edges and thus can not contain the searched object.  
-4. **minSize**: Objects smaller than this are ignored,	we can specify what is the smallest object we want to recognize, 30x30 is the standard.  
-5. **maxSize**: Objects larger than that are ignored.
+3. **minSize**: Objects smaller than this are ignored,	we can specify what is the smallest object we want to recognize, 30x30 is the standard.  
+4. **maxSize**: Objects larger than that are ignored.
 
 ### Checking the results
