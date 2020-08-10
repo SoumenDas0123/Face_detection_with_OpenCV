@@ -31,3 +31,4 @@ We will try to detect the faces on an [image](https://www.needsomefun.net/best-p
 ![Reult1](/PinkFloydResult1.jpg "first result")
 As we can see 5 faces have been detected and that one with smaller window size is not a face. To get rid of that let increase the minSize=(70, 70).
 ![Reult2](/PinkFloydResult2.jpg "second result")
+So we need to adjust the algorithm by experimenting and finding the best combinations of values for above mentioned parameters on a case-by-case basis to vaoid false postives or false negatives. But as it uses machine learning algorithm some time it wont give 100% correct results.
