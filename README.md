@@ -15,7 +15,7 @@ OpenCV has these cascade classifers in terms of XML files, which we can use as p
 
 
 ### Parameters for face detection
-cascadeClassifier.detectMultiScale(image, faceDetections, scaleFactor, minNeighbors, flags, minSize, maxSize)  
+cascadeClassifier.detectMultiScale(image, scaleFactor, minNeighbors, minSize, maxSize)  
 
 1. **scaleFactor**: Since some faces may be closer to the camera, they would appear bigger than other faces in the background, the scale factor compensates for this
 specifying how much the image size is reduced at each image scale. The model has a fixed size defined during training in the haarcascade_frontalface_default.xml file.
