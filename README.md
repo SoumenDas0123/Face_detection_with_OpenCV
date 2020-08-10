@@ -27,4 +27,4 @@ higher quality.
 4. **maxSize**: Objects larger than that are ignored.
 
 ### Checking the results
-We will try to detect the faces on a photo(https://www.needsomefun.net/best-pink-floyd-photos/) of the Pink Floyd band.
+We will try to detect the faces on an [image](https://www.needsomefun.net/best-pink-floyd-photos/) of the Pink Floyd band.
